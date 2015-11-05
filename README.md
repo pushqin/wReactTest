@@ -1,6 +1,6 @@
-# What you need to do
-npm install
-npm run watch
+# What you probably need to do
+1. npm install
+2. npm run watch
 
 #What i have done
 1. npm install react browserify watchify 6to5ify --save-dev
