@@ -1,0 +1,17 @@
+{
+  "name": "wreacttest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "watch": "watchify -t 6to5ify ./src/app.jsx -o ./dist/bundle.js -v"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "6to5ify": "^4.1.1",
+    "browserify": "^12.0.1",
+    "react": "^0.14.2",
+    "watchify": "^3.6.0"
+  }
+}
