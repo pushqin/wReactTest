@@ -6,9 +6,11 @@
 1. npm install react browserify watchify 6to5ify --save-dev
 2. npm init
 
-Make scripts property in package.json  looks as follows
+Add to scripts property in package.json the watch script
 
-'"watch": "watchify -t 6to5ify ./src/app.jsx -o ./dist/bundle.js -v"'
+ ` "scripts": {
+    "watch": "watchify -t 6to5ify ./src/app.jsx -o ./dist/bundle.js -v"
+  },`
 
 
 
