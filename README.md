@@ -19,4 +19,10 @@ Creates package.json file
 
 Creates bundle.js in dist file and updates it each time when we save here, then hit refresh on browser and you will see the result
 
+#Usefull staff
+
+## Webstorm Plugins
+1. `markdown` - For md files.
+2. `.ignore` - For github ignore files.
+
 
