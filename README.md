@@ -3,14 +3,10 @@
 2. `npm run watch`
 
 #What i have done
-1. `npm install`
-
-react browserify watchify 6to5ify --save-dev
-
+1. `npm install react browserify watchify 6to5ify --save-dev`
 2. `npm init`
 
 Creates package.json file
-
 3. Add to scripts property in package.json the watch script
 
  ```
