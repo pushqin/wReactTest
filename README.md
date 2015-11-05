@@ -7,6 +7,7 @@ npm run watch
 2. npm init
 
 Make scripts property in package.json  looks as follows
+
 '"watch": "watchify -t 6to5ify ./src/app.jsx -o ./dist/bundle.js -v"'
 
 
