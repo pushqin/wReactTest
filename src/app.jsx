@@ -59,19 +59,19 @@ var TitleStatusValue = React.createClass({
 });
 
 var Status= React.createClass({
-    getInitialState: function() {
+    getDefaultProps: function() {
         return {
-            resKeyValue: 0
+            resKey: ""
         };
     },
+
     propTypes: {
         resKey: React.PropTypes.oneOf(['submitted', 'notSubmitted']).isRequired
     },
-    render(){
-        var resKeyStatus = this.props.resKey + this.state.resKeyValue;
 
+    render(){
         return <div>
-            <PyUI.Resource resKey={resKeyStatus}/></div>;
+            <PyUI.Resource resKey={this.props.resKey}/></div>;
     }
 });
 
@@ -103,12 +103,6 @@ var FormSubHeader= React.createClass({
             <PyUI.Resource resKey="formDescriptionRow"/></div>;
     }
 });
-
-
-
-
-
-
 
 ReactDOM.render(<App />,
     document.getElementById("app"));
