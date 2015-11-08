@@ -5,6 +5,7 @@ That is not the final solution thoooo.
 # What you probably need to do
 1. `npm install`
 2. `npm run watch`
+3. Go to 'index.html' hit Alt+F2 and choose chrome.
 
 #What i have done
 1. `npm install react browserify watchify 6to5ify --save-dev`
