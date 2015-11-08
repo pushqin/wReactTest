@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "private": true,
   "scripts": {
     "watch": "watchify -t 6to5ify ./src/app.jsx -o ./dist/bundle.js -v"
   },
@@ -13,5 +14,10 @@
     "browserify": "^12.0.1",
     "react": "^0.14.2",
     "watchify": "^3.6.0"
+  },
+  "dependencies": {
+    "bootstrap-grid": "^1.1.0",
+    "react-dom": "^0.14.2",
+    "reactivebanana": "kobi-kadosh/ReactiveBanana"
   }
 }
